@@ -1,0 +1,40 @@
+
+ol, ul{list-style: none;}
+a{text-decoration: none;}
+header{
+    background-color: rgb(4, 77, 126);
+    color: aliceblue;
+     }
+   
+.encabezado{
+    background-color: rgb(4, 118, 126);
+    color: aliceblue;
+    text-align: center;
+    }
+.barra_encabezado{
+    background-color: aliceblue;
+    color: rgb(4, 77, 126); 
+    text-align: right;
+    }
+.menu_principal ul {
+    display: flex;
+    padding: 10px;
+    gap: 30px;   
+    }
+
+#encabezado img{
+    padding: 10px;
+    }
+
+    @media (max-widtn:767px){
+        .seccion-1{
+            font-size: 50px;
+        color: blue;
+        }
+    }
+    @media(min-width:768px){
+    .seccion-1{
+        font-size: 40px;
+        color: rgb(15, 15, 15);
+    }
+    }
